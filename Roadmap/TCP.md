@@ -1,5 +1,8 @@
-# Protocolo TCP
+# TCP Protocol
 
-**TCP (Protocolo de Controle de Transmissão)** é um importante [Protocolo](./Protocolo.md) que permites dois *hosts* se conectarem e trocarem dados. TCP garante que a entrega de dados e pacotes na mesma ordem ao qual eles foram enviados. Vint Cerf e Bob Kahn, que eram cientistas da DARPA na época, desenvolveram o TCP em meados de 1970.
+**TCP (Transmission Control Protocol)** is an important network protocol that lets two hosts connect and exchange data streams. TCP guarantees the delivery of data and packets in the same order as they were sent. Vint Cerf and Bob Kahn, who were DARPA scientists at the time, designed TCP in the 1970s.
 
-A função do TCP é garantir que os pacotes sejam entregues de forma confiável, livre de erros. TCP implementa [controle de congestão](#todo), o que significa que os chamados iniciais começam pequenos, aumentando em tamanho relacional ao que os dispositivos e rede suportam.
+TCP's role is to ensure the packets are reliably delivered, and error-free. TCP implements congestion control, which means the initial requests start small, increasing in size to the levels of bandwidth the computers, servers, and network can support.
+
+## References
+1. [TCP](https://developer.mozilla.org/en-US/docs/Glossary/TCP)
