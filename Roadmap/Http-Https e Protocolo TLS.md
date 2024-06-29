@@ -1,14 +1,18 @@
 # HTTP e HTTPS e protocolo TLS
 
-HTTP é um [Protocolo](./Protocolo.md) para requisições de recursos como documentos HTML. É a fundação de qualquer troca de dados na Web e é um [Protocolo](./Protocolo.md) cliente-servidor, o que significa que as requisições serão iniciadas pelo recipiente, normalmente um navegador. Um documento completo é reconstruído de diferentes sub-documentos recuperados, do tipo, texto, descrição dos layouts, imagens, vídeos, códigos e mais.
+HTTP is a [Protocol](./Protocolo.md) to fetch resources as HTML documents. It is the foundation of any data exchange on the Web, and it is a client-server [Protocol](./Protocolo.md), which means requests are initiated by the recipient, usually the Web browser. A complete document is typically constructed from resources such as text content, layout instructions, images, videos, scripts, and more.
 
-![Fluxo de transmissão do protocolo HTTPS](assets/http-protocol-flow.png)
+![Stream flow of data in an HTTP protocol](assets/http-protocol-flow.png)
 
-Clientes e servidores comunicam-se trocando mensagens individuais (ao invés de uma cadeia contínua de dados). As mensagens enviadas pelo cliente, normalmente um navegador, são chamados *requests* (requisições) e as mensagens enviadas pelo servidor em formato de resposta são chamadas *reponses* (respostas).
+Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client are called requests and the messages sent by the server as an answer are called responses.
 
-![Fluxo de requisição e resposta](assets/request-response-flow.png)
+![Response and Request flow](assets/request-response-flow.png)
 
 
-Desenvolvido no início dos anos 90, HTTP é um protocolo extensível que evoluiu temporalmente. É um protocolo da camada de aplicação enviado através do TCP
+Designed in the early 1990s, HTTP is an extensible protocol which has evolved over time. It is an application layer protocol that is sent over [TCP](./TCP.md), or over a TLS-encrypted [TCP](./TCP.md) connection.
+
+## References
+
+1. [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#components_of_http-based_systems)
 
 
